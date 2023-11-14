@@ -1,0 +1,4 @@
+data_collection.c:13:6:SPI_Read	16	static
+data_collection.c:19:6:SPI_Write	16	static
+data_collection.c:26:6:HAL_TIM_PeriodElapsedCallback	16	static
+data_collection.c:79:6:GetDataFromSensor_usingSPI	32	static
