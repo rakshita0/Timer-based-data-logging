@@ -51,9 +51,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 //	HAL_I2C_Master_Receive(&hi2c3, LIS3DSH_ADDR, data1, 6, HAL_MAX_DELAY);
 //
 //	// Extract accelerometer data (assuming 16-bit signed data)
-//	x = ((int16_t)data1[0] << 8 | data1[1]);
-//	y = ((int16_t)data1[2] << 8 | data1[3]);
-//	z = ((int16_t)data1[4] << 8 | data1[5]);
+//	x = ((int16_t)data1[1] << 8 | data1[0]);
+//	y = ((int16_t)data1[3] << 8 | data1[2]);
+//	z = ((int16_t)data1[5] << 8 | data1[4]);
 //
 //	sprintf(sensor_data, "X:%d, Y:%d, Z:%d\r\n", x, y, z);
 //
